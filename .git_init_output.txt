@@ -1,0 +1,3 @@
+﻿--- Git Init (branch main) ---
+Initialized empty Git repository in C:/Users/Mahesh Kamireddy/Downloads/Telusko Java/Telusko Java/Project_8A_DataJPA/.git/
+--- Git Add ---

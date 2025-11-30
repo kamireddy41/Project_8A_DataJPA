@@ -1,0 +1,65 @@
+﻿--- Branch ---
+git : fatal: not a git repository (or any of the parent directories): .git
+At line:1 char:1
++ git rev-parse --abbrev-ref HEAD 2>&1 | Out-File $outFile -Append -Enc ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+--- Remotes ---
+git : fatal: not a git repository (or any of the parent directories): .git
+At line:1 char:1
++ git remote -v 2>&1 | Out-File $outFile -Append -Encoding utf8;
++ ~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+--- Status (porcelain) ---
+git : fatal: not a git repository (or any of the parent directories): .git
+At line:1 char:1
++ git status --porcelain 2>&1 | Out-File $outFile -Append -Encoding utf ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+--- Staging all files ---
+git : fatal: not a git repository (or any of the parent directories): .git
+At line:1 char:1
++ git add . 2>&1 | Out-File $outFile -Append -Encoding utf8;
++ ~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+--- Commit ---
+git : fatal: not a git repository (or any of the parent directories): .git
+At line:1 char:1
++ git commit -m "chore: push project to GitHub" 2>&1 | Out-File $outFil ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+--- Set origin remote (replace if exists) ---
+git : fatal: not a git repository (or any of the parent directories): .git
+At line:1 char:1
++ git remote add origin https://github.com/kamireddy41/Project_8A_DataJ ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+--- Remotes Now ---
+git : fatal: not a git repository (or any of the parent directories): .git
+At line:1 char:1
++ git remote -v 2>&1 | Out-File $outFile -Append -Encoding utf8;
++ ~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+--- Push (attempt) ---
+git : fatal: not a git repository (or any of the parent directories): .git
+At line:1 char:1
++ git push -u origin HEAD 2>&1 | Out-File $outFile -Append -Encoding ut ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+--- Done ---
