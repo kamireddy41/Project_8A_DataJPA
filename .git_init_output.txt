@@ -1,3 +1,82 @@
 ﻿--- Git Init (branch main) ---
 Initialized empty Git repository in C:/Users/Mahesh Kamireddy/Downloads/Telusko Java/Telusko Java/Project_8A_DataJPA/.git/
 --- Git Add ---
+git : warning: in the working copy of '.gitignore', LF will be replaced by CRLF the next time Git touches it
+At line:1 char:1
++ git add . 2>&1 | Out-File $outFile -Append -Encoding utf8;
++ ~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (warning: in the... Git touches it:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+warning: in the working copy of '.mvn/wrapper/maven-wrapper.properties', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'mvnw', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'mvnw.cmd', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'pom.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main/java/com/telusko/DataJpaProject01/DataJpaProject01Application.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main/resources/application.properties', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/test/java/com/telusko/DataJpaProject01/DataJpaProject01ApplicationTests.java', LF will be replaced by CRLF the next time Git touches it
+--- Git Commit ---
+[main (root-commit) 2a76fa2] chore: initial commit
+ 15 files changed, 782 insertions(+)
+ create mode 100644 .git_init_output.txt
+ create mode 100644 .git_push_output.txt
+ create mode 100644 .gitignore
+ create mode 100644 .mvn/wrapper/maven-wrapper.properties
+ create mode 100644 mvnw
+ create mode 100644 mvnw.cmd
+ create mode 100644 pom.xml
+ create mode 100644 src/main/java/com/telusko/DataJpaProject01/DataJpaProject01Application.java
+ create mode 100644 src/main/java/com/telusko/DataJpaProject01/entity/Vaccine.java
+ create mode 100644 src/main/java/com/telusko/DataJpaProject01/repo/IVaccineRepo.java
+ create mode 100644 src/main/java/com/telusko/DataJpaProject01/service/IVaccineService.java
+ create mode 100644 src/main/java/com/telusko/DataJpaProject01/service/VaccineServiceImpl.java
+ create mode 100644 src/main/java/com/telusko/DataJpaProject01/view/ResultView.java
+ create mode 100644 src/main/resources/application.properties
+ create mode 100644 src/test/java/com/telusko/DataJpaProject01/DataJpaProject01ApplicationTests.java
+--- Set origin remote ---
+--- Remote -v ---
+origin	https://github.com/kamireddy41/Project_8A_DataJPA.git (fetch)
+origin	https://github.com/kamireddy41/Project_8A_DataJPA.git (push)
+--- Push to origin main ---
+git : To https://github.com/kamireddy41/Project_8A_DataJPA.git
+At line:1 char:1
++ git push -u origin main 2>&1 | Out-File $outFile -Append -Encoding ut ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (To https://gith..._8A_DataJPA.git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/kamireddy41/Project_8A_DataJPA.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+--- Done ---
+--- Pull --rebase origin main ---
+git : error: cannot pull with rebase: You have unstaged changes.
+At line:1 char:1
++ git pull --rebase origin main 2>&1 | Out-File $outFile -Append -Encod ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (error: cannot p...staged changes.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+error: Please commit or stash them.
+--- Push after pull ---
+git : To https://github.com/kamireddy41/Project_8A_DataJPA.git
+At line:1 char:1
++ git push -u origin main 2>&1 | Out-File $outFile -Append -Encoding ut ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (To https://gith..._8A_DataJPA.git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/kamireddy41/Project_8A_DataJPA.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+--- Status before fix ---
+ M .git_init_output.txt
+--- Add all changes ---
